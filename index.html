@@ -25,6 +25,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'primary-color': '#F85559',
                     }
                 }
             }
@@ -47,24 +48,24 @@
 </head>
 
 <body class="font-lato">
-    <header>
-        <div class="navbar justify-between bg-base-100">
+    <header class="lg:container lg:mx-auto">
+        <div class="navbar justify-between lg:bg-primary-color lg:rounded-[600px] lg:px-8 lg:py-4 lg:my-5">
             <div class="navbar-start hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>About Us</a></li>
-                    <li><a>Shop</a></li>
-                    <li><a>All Fruits</a></li>
+                    <li><a class="font-medium text-lg lg:text-white">Home</a></li>
+                    <li><a class="font-medium text-lg text-white">About Us</a></li>
+                    <li><a class="font-medium text-lg text-white">Shop</a></li>
+                    <li><a class="font-medium text-lg text-white">All Fruits</a></li>
                 </ul>
                 
             </div>
             <div class="navbar-center ">
                 <img src="images/logo.png" alt="">
-                <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+                <a class="btn btn-ghost normal-case text-4xl font-bold text-black lg:text-white">Fruit Burst</a>
             </div>
             <div class="navbar-end">
                 <div class="form-control hidden lg:block">
-                    <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto">
+                    <input type="text" placeholder="Search here" class="input input-bordered md:w-auto rounded-[50px]">
                 </div>
                 <div>
                     <div class="dropdown dropdown-bottom dropdown-end">
@@ -74,10 +75,10 @@
                             </svg>
                         </label>
                         <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Home</a></li>
-                            <li><a>About Us</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>All Fruits</a></li>
+                            <li><a class="font-medium text-lg text-black lg:text-white">Home</a></li>
+                            <li><a class="font-medium text-lg text-black lg:text-white">About Us</a></li>
+                            <li><a class="font-medium text-lg text-black lg:text-white">Shop</a></li>
+                            <li><a class="font-medium text-lg text-black lg:text-white">All Fruits</a></li>
                         </ul>
                     </div>
                 </div>
